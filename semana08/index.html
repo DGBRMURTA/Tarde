@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox - parte 2 </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            background-color: rgb(133, 133, 133);
+            border: 1px solid black;
+        }
+
+        .child {
+            width: 20%;
+            height: 200px;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+        <h1>Hello world </h1>
+
+        <div class="container">         
+
+                <div class="child"> 1 </div>
+                <div class="child"> 2 </div>
+
+        </div>
+</body>
+</html>
